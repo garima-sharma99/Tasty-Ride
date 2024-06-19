@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+
+@media (max-width:600px){
+    .con{
+        flex-direction: column;
+        align-items: center;
+    }
+    .last_data p{
+        font-size: 12px;
+    }
+   
+}
+
+#ex4 .p1[data-count]::after {
+    position: absolute;
+    right: 5%;
+    top: -7%;
+    content: attr(data-count);
+    font-size: 15px;
+    font-weight: 900;
+    padding: 2px;
+    border-radius: 50%;
+    line-height: 1em;
+    color: red;
+    background: yellow;
+    text-align: center;
+    min-width: 18px;
+}
+
+#ex4 .fa-stack {
+    width: 1.5em;
+}
+
+

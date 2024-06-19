@@ -1,0 +1,21 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.scroll-button {
+    background-color: black; /* Bootstrap danger color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-button:hover {
+    background-color: #bd2130; /* Darker shade of Bootstrap danger color */
+}
